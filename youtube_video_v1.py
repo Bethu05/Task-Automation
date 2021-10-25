@@ -4,7 +4,6 @@
 
 from pytube import YouTube
 
-# video_url = YouTube('https://youtu.be/crYum29M-VE')
 print('\tYoutube MP4 Video Downloader')
 
 def get_video_id(): # Get videoId from url
