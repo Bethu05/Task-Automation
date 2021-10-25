@@ -1,2 +1,2 @@
 # Task-Automation
-Frequent Task Automation with Python
+Common Task Automation with Python
