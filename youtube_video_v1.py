@@ -16,7 +16,7 @@ def get_video_id():
     return video_url
 
 
-def video_downloader(url, folder):  # ? Download Specific Video
+def video_downloader(url, folder):  # Download Specific Video
     # Get The highest resolution with pregressive=True and .mp4 file extension
     highest_res = url.streams.filter(
         progressive=True, file_extension='mp4').get_highest_resolution()
