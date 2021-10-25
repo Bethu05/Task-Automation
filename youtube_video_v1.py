@@ -6,10 +6,8 @@ from pytube import YouTube
 
 # video_url = YouTube('https://youtu.be/crYum29M-VE')
 print('\tYoutube MP4 Video Downloader')
-# Get Video Url from User
 
-
-def get_video_id():
+def get_video_id(): # Get videoId from url
     # get User to Paste the video Url
     url = input('Paste The Video Url: ')
     video_url = YouTube(url)
